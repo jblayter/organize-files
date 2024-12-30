@@ -1,0 +1,24 @@
+{
+  "name": "organize-files",
+  "version": "1.0.0",
+  "description": "A Node.JS program that will try and organize image files from a source by YYYY/MM sub structure based on EXIF or file creation date",
+  "main": "index.js",
+  "scripts": {
+    "organize-files": "node index.js $1 $2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jblayter/organize-files.git"
+  },
+  "author": "John Blayter",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jblayter/organize-files/issues"
+  },
+  "homepage": "https://github.com/jblayter/organize-files#readme",
+  "dependencies": {
+    "exif-parser": "^0.1.12",
+    "fs-extra": "^11.2.0",
+    "node": "22.10.0"
+  }
+}
